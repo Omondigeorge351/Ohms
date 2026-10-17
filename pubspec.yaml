@@ -1,0 +1,21 @@
+name: ohms
+description: OHMS - Fast chat from Kenya.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.15.0
+  firebase_storage: ^11.5.0
+  firebase_messaging: ^14.7.10
+  image_picker: ^1.0.4
+  flutter_contacts: ^1.1.7
+  permission_handler: ^11.0.1
+  flutter_local_notifications: ^16.3.0
+  cupertino_icons: ^1.0.2
+flutter:
+  uses-material-design: true
